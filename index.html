@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>login form</title>
+</head>
+<body>
+    <div class="container">
+    <div class="login-content">
+       <img src="bg-login.png" alt="login image"> 
+       <form class="login-form">
+        <div >
+            <h1 class="login-title"><span>welcome</span> Back</h1>
+            <p class="login-description">welcome! please login to continue.</p>
+        </div>
+        <div class="login-inputs">
+            <div>
+                <label class="login-label" for="input-email">Email </label>
+                <input class="login-input" type="email" required placeholder="Entre your email" id="input-email">
+            </div>
+            <div>
+                <label class="login-label" for="input-id">Password</label>
+               <div class="login-box"> 
+                 <input class="login-input" type="password" required placeholder="Entre your password" id="input-pass">
+                 <i class='bx bx-hide login-eye'></i>
+               </div>
+           </div>
+           <div class="login-checkbok">
+              <input type="checkbox" class="login-checkbox-input">
+              <label for="" class="login-checkbox-label">Remeber me</label>
+           </div>
+          </div>
+            <div>
+            <div class="login-buttons">
+                <button class="login-button">Login  </button>
+                <button class="login-button login-button-ghost ">Sing up</button>
+            </div>
+            <a href="#" class="login-forget">Forget Password</a>
+            </div>
+       </form>
+    </div>
+
+</body>
+</html>
